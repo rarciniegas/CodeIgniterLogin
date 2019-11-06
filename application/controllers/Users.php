@@ -21,6 +21,7 @@
 				redirect('home');
 			}
 		}
+		
 		// Log in user
 		public function login(){
 			$data['title'] = 'Sign In';

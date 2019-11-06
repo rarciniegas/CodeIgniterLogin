@@ -1,8 +1,9 @@
 <?php echo validation_errors(); ?>
 
 <?php echo form_open('users/login'); ?>
-	<div class="row justify-content-center">
-		<div class="col-md-4 col-md-offset-4">
+
+		<div class="col-md-6 mx-auto">
+      <div class="card card-body bg-light mt-5">
  
    <img class="mb-4" src="<?php echo site_url(); ?>/assets/images/codeigniter.jpg" alt="" width="72" height="72">
 
